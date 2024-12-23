@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+</head>
+<body>
+    <div class="main"> 
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label"><i class="fa-solid fa-cloud-sun-rain"></i> Enter City Name</label>
+            <input id="city-input"  class="form-control form-control-lg"  type="text" placeholder="Enter City Name">
+            <button id="search-button" class="btn btn-primary">Search</button>
+        </div>
+    
+        <div class="Weather-Info">
+            <h3>Weather Information</h3>
+            <p><strong>City:</strong> <span id="city-name">-</span></p>
+            <p><strong>Time:</strong> <span id="city-time">-</span></p>
+            <p><strong>Temperature:</strong> <span id="city-temp">-</span>°C</p>
+        </div>
+    </div>
+    <div id="earth"></div>
+    
+    <script src="script.js"></script>
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+   
+</body>
+</html>  
